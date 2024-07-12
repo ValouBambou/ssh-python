@@ -115,6 +115,7 @@ setup(
     description="libssh C library bindings for Python.",
     long_description=open('README.rst').read(),
     install_requires=['abimap'],
+    setup_requires=['abimap'],
     packages=find_packages('.',
                            exclude=('embedded_server', 'embedded_server.*',
                                     'tests', 'tests.*', '*.tests',
